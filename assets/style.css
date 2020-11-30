@@ -1,0 +1,178 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #191765;
+  font-family: Roboto;
+}
+
+header {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+  position: static;
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+  color: #FFFFFF !important;
+}
+
+.navbar-nav li {
+  font-size: 1.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF !important;
+}
+
+.font-type {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.name {
+  font-size: 7rem;
+  line-height: 80px;
+  color: #9391FF;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  line-height: 32px;
+}
+
+.wrapper-pad {
+  margin: 40px 0;
+}
+
+.wrapper-3 {
+  margin-top: 25px;
+}
+
+.wrapper-3 h1 {
+  font-size: 54px;
+  margin-top: 55px;
+  color: #9390FF;
+}
+
+.border-line {
+  margin: 35px 0;
+  border: 1px solid #646369;
+}
+
+.framewk {
+  color: #FFFFFF;
+}
+
+.framewk-hdr {
+  font-size: 2.3rem;
+}
+
+.framewk ul {
+  margin-top: 8px;
+}
+
+.framewk ul li {
+  list-style: none;
+  font-size: 1.4rem;
+  line-height: 25px;
+}
+
+.bg-img {
+  position: static;
+  width: 550px;
+  height: 320px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(image_processing20200716-21735-f07s4k.png);
+}
+
+.works-hdr {
+  width: 448px;
+  height: 75px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 5px 24px 0 24px;
+}
+
+.works-content {
+  width: 448px;
+  height: 140px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #DFE1E6;
+  margin: 0px 24px;
+}
+
+.works-lang {
+  height: 45px;
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #DFE1E6;
+  margin: 0px 24px;
+}
+
+.works {
+  margin-bottom: 50px;
+}
+
+.btn-project {
+  margin: 0px 24px;
+  width: 106px;
+  height: 40px;
+  left: 0px;
+  top: 357px;
+  font-size: 1.5rem;
+  color: #DFE1E6;
+  background: #9390FF;
+}
+
+.contact {
+  margin: 120px 0 40px 0;
+}
+
+.contact h2 {
+  font-size: 40px;
+  line-height: 24px;
+  color: #9390FF;
+  margin-bottom: 15px;
+}
+
+.contact-txt {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #EBEBFF;
+}
+
+.input {
+  width:50%;
+}
+
+.input-box {
+  width:100%;
+  height: 33px;
+  border-radius: 2px;
+}

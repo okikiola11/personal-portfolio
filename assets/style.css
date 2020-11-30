@@ -97,11 +97,21 @@ header {
 
 .bg-img {
   position: static;
-  width: 550px;
-  height: 320px;
+  width: 100%;
+  height: 350px;
   left: 0px;
   top: 0px;
   background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(image_processing20200716-21735-f07s4k.png);
+}
+
+.bg-img1 {
+  background-image: url(images/screenshot.png);
+  background-size: 100% 100%;
+}
+
+.bg-img2 {
+  background-image: url(images/screenshot2.png);
+  background-size: 100% 100%;
 }
 
 .works-hdr {

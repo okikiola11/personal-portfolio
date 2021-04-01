@@ -64,6 +64,10 @@ header.sticky {
   text-align: center;
 }
 
+.content {
+  margin-top: 120px;
+}
+
 .name {
   font-size: 7rem;
   line-height: 80px;

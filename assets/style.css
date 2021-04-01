@@ -124,6 +124,11 @@ header {
   background-size: 100% 100%;
 }
 
+.bg-img5 {
+  background-image: url(images/screenshot5.png);
+  background-size: 100% 100%;
+}
+
 .bg-img3 {
   background-image: url(images/screenshot3.png);
   background-size: 100% 100%;

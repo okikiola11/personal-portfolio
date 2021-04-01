@@ -9,15 +9,25 @@ html {
 }
 
 body {
-  background: #191765;
+  background: #1f2833;
   font-family: Roboto;
 }
 
 header {
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px; 
-  position: static;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: top .6s;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  overflow: hidden;
+}
+
+header.sticky {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 100px;
+  color: #0b0c10 !important;
 }
 
 .navbar {
@@ -26,15 +36,26 @@ header {
 
 .navbar-brand {
   font-size: 2.4rem;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
+  transition: 0.6s;
 }
 
 .navbar-nav li {
   font-size: 1.8rem;
+  position: sticky;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #FFFFFF !important;
+.navbar-nav ul li a {
+  position: relative;
+  transition: 0.5s;
+  font-weight: 500px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: .6s;
+}
+
+.nav-item > .nav-link {
+  color: #ffffff !important;
 }
 
 .font-type {
@@ -47,7 +68,7 @@ header {
   font-size: 7rem;
   line-height: 80px;
   font-family: 'Della Respira', serif;
-  color: #9391FF;
+  color: #66fcf1;
 }
 
 .title {
@@ -76,7 +97,7 @@ header {
 .wrapper-3 h1 {
   font-size: 54px;
   margin-top: 55px;
-  color: #9390FF;
+  color: #66fcf1;
   font-family: 'Della Respira', serif;
 }
 
@@ -165,7 +186,7 @@ header {
 }
 
 .works-lang {
-  height: 45px;
+  min-height: 35px;
   font-size: 1.7rem;
   line-height: 28px;
   color: #DFE1E6;
@@ -178,16 +199,25 @@ header {
 }
 
 .btn-project {
-  margin: 0px 24px;
+  margin: 0 24px;
   width: 150px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   left: 0px;
   top: 357px;
   font-size: 1.5rem;
   font-family: 'Della Respira', serif;
   color: #DFE1E6;
-  background: #9390FF;
+  background: #0b0c10;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+
+.btn-project:hover {
+  border: 2px solid #66fcf1;
+  background-color: transparent;
+  color: #ffffff;
+  transition: color .4s;
 }
 
 .contact {
@@ -234,21 +264,21 @@ header {
 }
 
 .btn-submit {
-  background: #9390FF;
-  padding: 12px;
-  width: 120px;
-  height: 48px;
+  margin: 0 24px;
+  width: 150px;
+  padding: 12px 45px;
+  left: 0px;
+  top: 357px;
   font-size: 1.5rem;
-  color: #FFFFFF;
-  border: none;
+  font-family: 'Della Respira', serif;
+  color: #DFE1E6;
+  background: #0b0c10;
+  font-size: 2rem;
+  border-radius: 5px;
 }
 
-footer svg {
-  margin-right: 5px;
-}
-
-.gmail {
-  font-size: 1.5rem;
+.btn-submit:hover {
   color: #FFFFFF;
-  border: none;
+  text-decoration: none;
+  transition: color .3s;
 }

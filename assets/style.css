@@ -40,22 +40,14 @@ header.sticky {
   transition: 0.6s;
 }
 
-.navbar-nav li {
-  font-size: 1.8rem;
-  position: sticky;
-}
-
-.navbar-nav ul li a {
-  position: relative;
+.navbar-nav > .nav-link {
+  color: #ffffff !important;
   transition: 0.5s;
   font-weight: 500px;
   letter-spacing: 2px;
   text-decoration: none;
   transition: .6s;
-}
-
-.nav-item > .nav-link {
-  color: #ffffff !important;
+  font-size: 1.8rem;
 }
 
 .font-type {
@@ -125,18 +117,14 @@ header.sticky {
 
 .framewk ul li {
   list-style: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 25px;
   font-family: 'Cairo', sans-serif;
 }
 
 .bg-img {
-  position: static;
   width: 100%;
   height: 350px;
-  left: 0px;
-  top: 0px;
-  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(image_processing20200716-21735-f07s4k.png);
 }
 
 .bg-img1 {
@@ -265,6 +253,7 @@ header.sticky {
   border-radius: 2px;
   font-size: 1.5rem;
   padding-left: 10px;
+  font-family: 'Cairo', sans-serif;
 }
 
 .btn-submit {
@@ -285,4 +274,31 @@ header.sticky {
   color: #FFFFFF;
   text-decoration: none;
   transition: color .3s;
+}
+
+footer {
+  margin: 20px 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (max-width:1024px) {
+ .navbar-nav {
+   width: 60%;
+ }
+}
+
+@media screen and (max-width:768px) {
+ .mar-top {
+   margin-bottom: 60px;
+ }
+ .framewk {
+   padding-right: 20px;
+ }
 }

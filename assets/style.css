@@ -280,7 +280,8 @@ footer {
   margin: 20px 0;
 }
 
-footer ul li {
+footer ul li,
+.list li {
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;

@@ -153,6 +153,11 @@ header.sticky {
   background-size: 100% 100%;
 }
 
+.bg-img6 {
+  background-image: url(images/screenshot6.png);
+  background-size: 100% 100%;
+}
+
 .works-hdr {
   width: 448px;
   height: 75px;
